@@ -7,10 +7,14 @@
     <title>Pac-Man</title>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" charset="Utf-8"></script>
+    <script src="level1.js" charset="Utf-8"></script>
+    <script src="level2.js" charset="Utf-8"></script>
   </head>
   <body>
-    <div class="grid"></div>
-
-    <h3>Score:<span id="score">0</span></h3>
+    <div id="grid" class="grid"></div>
+    <button id="startBtn" onclick="startLevel1()">Start Game</button>
+    <button onclick="startLevel1()">Level 1</button>
+    <button onclick="startLevel2()">Level 2</button>
+    Score:<span id="score">0</span>
   </body>
 </html>

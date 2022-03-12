@@ -26,6 +26,12 @@
   border-radius: 10px;
 }
 
+.pac-dot-2 {
+  background-color: black;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
 .pac-man {
   background-color: yellow;
   border-radius: 10px;
